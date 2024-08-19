@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+}
+.app_box{
+  width: 400px;
+  min-height: 8vh;
+  background-color: #4a28d1;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2),0 0 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 10px;
+}
+.input_box{
+  width: 100%;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.input_box input{
+  width: 80%;
+  min-height: 8vh;
+  background: #fff;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  padding: 7px 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.input_box input::placeholder{
+  color: #000;
+}
+.input_box button{
+  width: 40px;
+  min-height: 8vh;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.app_details{
+  width: 100%;
+  min-height: 40vh;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.app_details .img_box{
+  width: 100%;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.img_box img{
+  width: 150px;
+}
+.app_details .degre_box{
+  width: 100%;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.degre_box h1{
+  font-size: 58px;
+  color: #fff;
+}
+.cityname_box{
+  width: 100%;
+  min-height: 5vh;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cityname_box h1{
+  font-size: 37px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.weather_box{
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather_box .humidity , .weather_box .wind{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.weather_box .humidity  img, .weather_box .wind img{
+ width: 40px;
+ margin-right: 10px;
+}
+.humidity .humidity_detail{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.wind .wind_detail{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.humidity_detail p, .wind_detail p{
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.error{
+  margin-top: 30px;
+  font-size: 25px;
+  color: #fff;
+}
