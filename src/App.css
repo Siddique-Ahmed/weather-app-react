@@ -15,7 +15,7 @@
   padding: 15px 20px;
 }
 .app_box{
-  width: 400px;
+  width: 500px;
   min-height: 8vh;
   background-color: #4a28d1;
   border-radius: 15px;
@@ -32,7 +32,7 @@
   min-height: 8vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border-radius: 5px;
 }
 .input_box input{
@@ -45,12 +45,13 @@
   padding: 7px 20px;
   font-size: 17px;
   font-weight: 500;
+  margin-right: 10px;
 }
 .input_box input::placeholder{
   color: #000;
 }
 .input_box button{
-  width: 40px;
+  width: 50px;
   min-height: 8vh;
   border: none;
   outline: none;
